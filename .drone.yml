@@ -5,7 +5,10 @@ name: Tutorial
 
 server:
   host: 192.168.5.10
-  user: root
+  user:
+    from_secret: SSH_USER
+  password:
+    from_secret: SSH_PASSWORD
 
 clone:
   disable: true
