@@ -6,9 +6,6 @@ name: Tutorial
 trigger:
   branch:
     - main
-  event:
-    include:
-      - push
 
 clone:
   disable: true
