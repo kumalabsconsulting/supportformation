@@ -10,9 +10,6 @@ server:
   password:
     from_secret: SSH_PASSWORD
 
-clone:
-  disable: true
-
 steps:
   - name: test_CMD
     commands:
