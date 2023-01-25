@@ -20,6 +20,6 @@ server:
 steps:
   - name: test_CMD
     commands:
-      - pwd
-      - hostname
+      - cd /root/supportdecours
+      - git pull
 
