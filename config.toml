@@ -8,7 +8,7 @@ theme = ["hugo-theme-learn", "reveal-hugo"]
 home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-editURL = "https://github.com/kumalabsconsulting/support-formation"
+editURL = "https://github.com/kumalabsconsulting/supportformation.git"
 globalTitle = "Kuma Labs Consulting"
 
 [params.reveal_hugo]
