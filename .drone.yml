@@ -6,10 +6,7 @@ name: Tutorial
 trigger:
   branch:
     - main
-  event:
-    - push
-    - tag
-    - pull_request
+
 
 server:
   host: 192.168.5.10

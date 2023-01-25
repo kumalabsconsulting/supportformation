@@ -1,0 +1,9 @@
+.idea
+themes
+Draft
+archetypes
+public
+ressources
+*.zip
+intro-email.md
+*.lock
