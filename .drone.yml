@@ -1,0 +1,18 @@
+---
+kind: pipeline
+type: ssh
+name: Tutorial
+
+server:
+  host: 192.168.5.10
+  user: root
+
+clone:
+  disable: true
+
+steps:
+  - name: test_CMD
+    commands:
+      - cd supportdecours
+      - git pull
+
