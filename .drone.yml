@@ -6,6 +6,12 @@ name: Tutorial
 trigger:
   branch:
     - main
+  event:
+    - push
+    - pull_request
+    - tag
+    - promote
+    - rollback
 
 clone:
   disable: true
