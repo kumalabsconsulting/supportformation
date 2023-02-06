@@ -9,7 +9,7 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 editURL = "https://github.com/kumalabsconsulting/supportformation.git"
-globalTitle = "Kuma Labs Consulting"
+globalTitle = "Support de formation Kuma Labs"
 
 [params.reveal_hugo]
 custom_theme = "reveal-hugo/themes/robot-lung.css"
