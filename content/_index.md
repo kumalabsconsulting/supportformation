@@ -1,11 +1,10 @@
 ---
-title: Kuma Labs
+title: Support de formation Kuma Consulting Labs
 ---
 
 # {{< param globalTitle >}}
 
-Vous trouverez rassemblés sur ce site les supports de formations pour une bonne partie des modules technique du Kuma Labs Kuma Labs.
+Vous trouverez rassemblés sur ce site les supports de formations pour une bonne partie des modules technique du Kuma Labs by [Kuma Consulting](https://l.kumalabs.consulting).
 
-Conçus initialement dans le cadre d'un cursus [Kuma Labs](https://l.kumalabs.consulting)</a>.</br>
 
 Sous [licence CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr)</a>
