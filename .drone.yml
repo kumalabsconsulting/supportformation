@@ -3,9 +3,6 @@ kind: pipeline
 type: ssh
 name: Tutorial
 
-trigger:
-  event:
-    - push
 
 clone:
   disable: true
