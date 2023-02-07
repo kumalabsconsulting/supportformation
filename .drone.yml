@@ -5,7 +5,6 @@ name: Tutorial
 
 trigger:
   event:
-    include:
     - push
 
 clone:
