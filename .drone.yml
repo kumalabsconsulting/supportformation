@@ -4,8 +4,6 @@ type: ssh
 name: Tutorial
 
 trigger:
-  branch:
-  - main
   event:
     include:
     - push
