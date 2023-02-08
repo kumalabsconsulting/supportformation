@@ -1,6 +1,6 @@
 baseURL = "https://support.kumalabs.consulting/"
 languageCode = "fr-FR"
-title = "Kuma Consulting Support de formation"
+title = "Support de formation Kuma Labs"
 theme = ["hugo-theme-learn", "reveal-hugo"]
 
 # Pour la fonctionnalité de recherche

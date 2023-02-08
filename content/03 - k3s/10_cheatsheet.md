@@ -6,6 +6,7 @@ title: CheatSheet k3s
 
 ### K3s Cheatsheet
 
+Ajout d'un disque pour un k3s:
 ```bash
 journalctl --vacuum-size=200M # Vider le journal systèmedf -h|more
 k3s crictl rmi --prune # vide les images inutiliséescd ../
