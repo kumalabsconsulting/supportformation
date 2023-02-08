@@ -8,6 +8,7 @@ title: CheatSheet k3s
 
 Ajout d'un disque pour un k3s :
 ```bash
+## TOTOTOTOTOTOTO
 journalctl --vacuum-size=200M # Vider le journal systèmedf -h|more
 k3s crictl rmi --prune # vide les images inutiliséescd ../
 cfdisk /dev/sdb # vérifie que le disk /dev/sdb existecat /etc/fstab
