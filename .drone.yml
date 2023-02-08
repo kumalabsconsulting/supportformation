@@ -3,10 +3,6 @@ kind: pipeline
 type: ssh
 name: Tutorial
 
-trigger:
-  ref:
-    - refs/heads/main
-    - refs/heads/**
 
 clone:
   disable: true
@@ -24,3 +20,7 @@ steps:
       - cd /root/supportdecours
       - git pull
 
+trigger:
+  ref:
+    - refs/heads/main
+    - refs/heads/**
