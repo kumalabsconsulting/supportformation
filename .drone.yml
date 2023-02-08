@@ -8,8 +8,8 @@ trigger:
     - refs/heads/main
     - refs/heads/**
 
-#clone:
-#  disable: true
+clone:
+  disable: true
 
 server:
   host: 192.168.5.10
