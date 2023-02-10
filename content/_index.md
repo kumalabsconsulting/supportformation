@@ -1,14 +1,14 @@
 ---
-title: Introduction
-weight: 1
-pre: "<i class='fas fa-house'></i> - "
+title: Support de formation Kuma Consulting Labs
 ---
 
+# {{< param globalTitle >}}
 
 
-### Introduction
+<td>&nbsp;</td>
 
-# Kuma Labs Consulting 
+
+----------
 
 Ce site à pour but de fournir les supports de cours liés aux formations que je donne.
 
