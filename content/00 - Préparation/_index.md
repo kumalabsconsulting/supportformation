@@ -37,7 +37,7 @@ Dans le cadre d'une formation à distance, toutes les VM sont installé avec cha
 
 ## Formation présentiel
 Dans le cadre d'une formation présentielle dans vos locaux, il y a deux possibilités:
-  * Votre service IT repecte nos prérequis pour une accès aux environnements que nous vournissons
+  * Votre service IT repecte nos prérequis pour une accès aux environnements que nous fournissons
   * Vous avez des impératifs de sécurités, vous préférez gérer l'environnement de formation au sein de votre réseau.
 
 ### Prérequis d'accès à nos environnements de formation
@@ -45,9 +45,6 @@ Dans le cadre d'une formation présentielle dans vos locaux, il y a deux possibi
 
 | **Source**   | **Protocol** | **Port** | **Destination**       | **Protocol** | **Port** | **Comments**                            |
 |:------------:|:------------:|:--------:|:---------------------:|:------------:|:--------:|:---------------------------------------|
-| VM formation | TCP          | Any      | fr.archive.ubuntu.com | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories |
-| VM formation | TCP          | Any      | security.ubuntu.com   | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories |
-| VM formation | TCP          | Any      | deb.debian.org        | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories |
 | VM formation | TCP          | Any      | *.kumalabs.consulting | TCP          | 80/443   | HTTP/HTTPS to our domain                |
 
 **Note**
@@ -63,7 +60,6 @@ Votre service IT devra quand même respecter ces prérequis:
 | VM formation | TCP          | Any      | fr.archive.ubuntu.com | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories      |
 | VM formation | TCP          | Any      | security.ubuntu.com   | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories      |
 | VM formation | TCP          | Any      | deb.debian.org        | TCP          | 80/443   | HTTP/HTTPS Acces to Ubuntu repositories      |
-| VM formation | TCP          | Any      | *.kumalabs.consulting | TCP          | 80/443   | HTTP/HTTPS to our formation website supports |
 
 
 

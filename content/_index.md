@@ -1,10 +1,18 @@
 ---
-title: Support de formation Kuma Consulting Labs
+title: Introduction
+weight: 1
+pre: "<i class='fas fa-house'></i> - "
+chapter: true
 ---
 
-# {{< param globalTitle >}}
-
-Vous trouverez rassemblés sur ce site les supports de formations pour une bonne partie des modules technique du Kuma Labs by [Kuma Consulting](https://l.kumalabs.consulting).
 
 
-Sous [licence CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr)</a>
+### Introduction
+
+# Kuma Labs Consulting 
+
+Ce site à pour but de fournir les supports de cours liés aux formations que je donne.
+
+C'est un site web généré avec [HUGO](gohubo.io), le framework de génération de contenu le plus rapide ! A se qu'ils disent...
+
+Si vous êtes à la recherche des prérequis nécessaires pour suivre nos formations, veuillez vous dirigez vers la section [Préparation de l'environnement](1-préparation/)
