@@ -1,5 +1,6 @@
 ---
-title: "0 - Environnement du Lab"
+title: "Environnement du Lab"
+pre: "00 - <i class='fab fa-computer'></i> "
 weight: 2
 draft: no
 ---
