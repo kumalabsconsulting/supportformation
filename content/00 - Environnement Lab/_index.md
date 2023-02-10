@@ -1,5 +1,5 @@
 ---
-title: 0 - Préparation de l'environnement
+title: "0 - Environnement du Lab"
 weight: 2
 draft: no
 ---
