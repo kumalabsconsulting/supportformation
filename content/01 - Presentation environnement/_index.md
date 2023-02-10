@@ -2,7 +2,7 @@
 title: Présentation de l'environnement
 draft: false
 pre: "01 - <i class='fas fa-rocket'></i> - "
-weight: 1
+weight: 100
 ---
 
 Au cours de nos formations à distance, nous utiliserons différents outils pour faciliter notre travail en équipe.
