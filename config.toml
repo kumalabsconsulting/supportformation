@@ -1,6 +1,6 @@
 baseURL = "https://docker.support.kumalabs.consulting/"
 languageCode = "fr-FR"
-title = "Support de formation Kuma Labs"
+title = "Supports de formations"
 theme = ["hugo-theme-learn", "reveal-hugo"]
 
 # Pour la fonctionnalité de recherche
