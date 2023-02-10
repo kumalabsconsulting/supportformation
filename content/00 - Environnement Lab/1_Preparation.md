@@ -4,6 +4,10 @@ draft: false
 weight: 101
 ---
 
+<td>&nbsp;</td>
+
+
+----------
 Au cours de nos formations à distance, nous utiliserons différents outils pour faciliter notre travail en équipe.
 
 Nous utiliserons notamment l'espace de travail Teams qui sera mis à disposition pour la formation. Il sera utilisé pour les conférences vidéo et audio, mais également pour laisser des commentaires et partager des fichiers entre les participants.
