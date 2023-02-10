@@ -4,8 +4,8 @@ type: ssh
 name: Tutorial
 
 
-#clone:
-#  disable: true
+clone:
+  disable: true
 
 server:
   host: 192.168.5.10
@@ -15,12 +15,18 @@ server:
     from_secret: SSH_PASSWORD
 
 steps:
-  - name: test_CMD
+  - name: Stop and remove old version
     commands:
-      - pwd
-      - ls -l
-      #- cd /root/supportformation
-      #- git pull
+      - [[ -d /root/supportformation ]] && cd /root/supportformation ; docker compose down ; cd /tmp ; rm -rf /root/supportformation
+
+  - name: Clone new version
+    commands:
+      - git clone https://github.com/kumalabsconsulting/supportformation.git /root/
+
+  - name: Launch site
+      - cd /root/supportformation
+      - docker compose up -d
+
 
 trigger:
   ref:
