@@ -1,0 +1,12 @@
+---
+version: '3'
+services:
+  supportformation:
+    image: klakegg/hugo:0.107.0
+    container_name: supportformation
+    command: 'server'
+    restart: unless-stopped
+    ports:
+      - 8080:1313
+    volumes:
+      - ./:/src
