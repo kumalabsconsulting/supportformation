@@ -2,9 +2,8 @@
 title: "Environnement du Lab"
 pre: "00 - <i class='fab fa-computer'></i> "
 weight: 100
-chapter: true
+#chapter: true
 ---
-
 
 <td>&nbsp;</td>
 

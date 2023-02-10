@@ -24,6 +24,7 @@ steps:
       - git clone https://github.com/kumalabsconsulting/supportformation.git /root/supportformation
 
   - name: Launch site
+    commands:
       - cd /root/supportformation
       - docker compose up -d
 
