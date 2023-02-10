@@ -17,8 +17,9 @@ server:
 steps:
   - name: test_CMD
     commands:
-      - cd /root/supportdecours
-      - git pull
+      - ls -l
+      #- cd /root/supportformation
+      #- git pull
 
 trigger:
   ref:
