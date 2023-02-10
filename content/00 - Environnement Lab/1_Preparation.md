@@ -1,7 +1,7 @@
 ---
 title: "1 - Présentation de l'environnement"
 draft: false
-weight: 3
+weight: 101
 ---
 
 Au cours de nos formations à distance, nous utiliserons différents outils pour faciliter notre travail en équipe.
