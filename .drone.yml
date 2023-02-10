@@ -17,7 +17,7 @@ server:
 steps:
   - name: Stop and remove old version
     commands:
-      - [[ -d /root/supportformation ]] && cd /root/supportformation ; docker compose down ; cd /tmp ; rm -rf /root/supportformation
+      - if [[ -d /root/supportformation ]]; then cd /root/supportformation ; docker compose down ; cd /tmp ; rm -rf /root/supportformation; fi
 
   - name: Clone new version
     commands:
