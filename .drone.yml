@@ -17,7 +17,7 @@ server:
 steps:
   - name: Stop and remove old version
     commands:
-      - /root/supportformation
+      - cd /root/supportformation
       - docker compose down
       - cd /tmp
       - rm -rf /root/supportformation
