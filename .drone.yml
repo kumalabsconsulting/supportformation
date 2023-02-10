@@ -4,8 +4,8 @@ type: ssh
 name: Tutorial
 
 
-clone:
-  disable: true
+#clone:
+#  disable: true
 
 server:
   host: 192.168.5.10
@@ -17,6 +17,7 @@ server:
 steps:
   - name: test_CMD
     commands:
+      - pwd
       - ls -l
       #- cd /root/supportformation
       #- git pull
