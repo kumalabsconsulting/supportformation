@@ -1,5 +1,6 @@
 ---
-title: Présentation de l'environnement
+title: "Présentation de l'environnement"
+pre: "01 - <i class='fab fa-computer'></i> "
 draft: false
 pre: "01 - <i class='fas fa-rocket'></i> - "
 weight: 3
