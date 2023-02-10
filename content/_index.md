@@ -2,7 +2,6 @@
 title: Introduction
 weight: 1
 pre: "<i class='fas fa-house'></i> - "
-chapter: true
 ---
 
 
